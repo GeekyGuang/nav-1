@@ -8,8 +8,15 @@ img{max-width: 100%;max-height:100%;}
 
 /* style */
 /* 给body加背景色，浏览器会自动给整个页面添加 */
-body {background: #eee;}
+body { 
+    background: #eee url(bg.37f7edb7.jpg) no-repeat center center;
+    background-size: cover;  /* 填充 */
+    height: 100vh;
+}
 
+.wrapper {
+    overflow:hidden;
+}
 
 .globalHeader {
     margin:20px;
@@ -151,4 +158,4 @@ body {background: #eee;}
 
 
 
-/*# sourceMappingURL=style.21765741.css.map */
+/*# sourceMappingURL=style.e4cdec46.css.map */
