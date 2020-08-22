@@ -131,11 +131,14 @@ var x = localStorage.getItem("x"); // 获取到的是字符串
 var xObject = JSON.parse(x); // 解析成对象
 
 var weblist = xObject || [{
-  logo: "A",
-  url: "https://www.acfun.cn"
+  logo: "Y",
+  url: "https://www.yuque.com/"
 }, {
-  logo: "B",
-  url: "https://www.bilibili.com"
+  logo: "E",
+  url: "https://www.ebay.com/"
+}, {
+  logo: "S",
+  url: "https://stackoverflow.com/"
 }];
 
 var simplify = function simplify(url) {
@@ -203,4 +206,4 @@ document.addEventListener('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.826ca732.js.map
+//# sourceMappingURL=main.1ae6878c.js.map

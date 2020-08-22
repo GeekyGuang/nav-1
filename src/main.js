@@ -5,8 +5,9 @@ const x = localStorage.getItem("x")  // 获取到的是字符串
 const xObject = JSON.parse(x)  // 解析成对象
 
 const weblist = xObject || [
-    {logo:"A",  url: "https://www.acfun.cn"},
-    {logo:"B", url: "https://www.bilibili.com"}
+    {logo:"Y", url: "https://www.yuque.com/"},
+    {logo:"E", url: "https://www.ebay.com/"},
+    {logo:"S",  url: "https://stackoverflow.com/"}
 ]
 
 const simplify = (url) => {
